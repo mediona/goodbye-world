@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: your-docker-repo/nodejs-app
+  repository: ghcr.io/mediona/goodbye-world
   tag: latest
   pullPolicy: IfNotPresent
 

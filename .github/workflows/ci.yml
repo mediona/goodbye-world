@@ -57,7 +57,7 @@ jobs:
           username: pipo02mix
           access-token: ${{ secrets.GITHUB_TOKEN }}
           force: true
-          chart-folder: helm/NODE-APP
+          chart-folder: helm/goodbye-world
 
   test:
     runs-on: ubuntu-latest
