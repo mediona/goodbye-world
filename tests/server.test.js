@@ -1,3 +1,9 @@
-test('Example test', () => {
-  expect(true).toBe(true);
+const { getGoodbye } = require('../src/goodbye-controller');
+
+describe('Say something to me', () => {
+  test('should returns adios in es code', (done) => {
+    const goodbye = getGoodbye('es');
+    expect(goodbye).toBe('Adiós');
+    done();
+  });
 });
